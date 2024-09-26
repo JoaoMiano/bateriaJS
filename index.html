@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bateria JavaScript</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <h1>Bateria JavaScript</h1>
     <div class="bateria">
-        <img src="imagens/bateria.png" alt="Bateria">
+        <img src="imagens/bateria.png" alt="Bateria" width="300px">
     </div>
-    <div class="keysArea">
-        <div id="keyq" class="key"></div>
-        <div id="keyw" class="key"></div>
-        <div id="keye" class="key"></div>
+    <div class="areaMusical">
+        <div class="keysArea">
+            <div id="keyq" class="key">q</div>
+            <div id="keyw" class="key">w</div>
+            <div id="keye" class="key">e</div>
 
-        <div id="keya" class="key"></div>
-        <div id="keys" class="key"></div>
-        <div id="keyd" class="key"></div>
+            <div id="keya" class="key">a</div>
+            <div id="keys" class="key">s</div>
+            <div id="keyd" class="key">d</div>
 
-        <div id="keyz" class="key"></div>
-        <div id="keyx" class="key"></div>
-        <div id="keyc" class="key"></div>
+            <div id="keyz" class="key">z</div>
+            <div id="keyx" class="key">x</div>
+            <div id="keyc" class="key">c</div>
+        </div>
+        <div class="inputArea">
+            <input type="text">
+            <br>
+            <button onclick="playComposition()">Faça a sua composição</button>
+        </div>
     </div>
-    <input type="text">
-    <br>
-    <button onclick="playComposition()">Faça a sua composição</button>
+
+
 </body>
+
 </html>
