@@ -11,9 +11,7 @@
 
 <body>
     <h1>Bateria JavaScript</h1>
-    <div class="bateria">
-        <img src="imagens/bateria.png" alt="Bateria" width="300px">
-    </div>
+
     <div class="areaMusical">
         <div class="keysArea">
             <div id="keyq" class="key">q</div>
@@ -29,13 +27,25 @@
             <div id="keyc" class="key">c</div>
         </div>
         <div class="inputArea">
-            <input type="text">
+            <div class="bateria">
+                <img src="imagens/bateria.png" alt="Bateria" width="300px">
+            </div>
+            <input type="text" id="composition">
             <br>
-            <button onclick="playComposition()">Faça a sua composição</button>
+            <button id="button">Faça a sua composição</button>
         </div>
     </div>
+    <audio src="sounds/keya.wav" id="s_keya"></audio>
+    <audio src="sounds/keyc.wav" id="s_keyc"></audio>
+    <audio src="sounds/keyd.wav" id="s_keyd"></audio>
+    <audio src="sounds/keye.wav" id="s_keye"></audio>
+    <audio src="sounds/keyq.wav" id="s_keyq"></audio>
+    <audio src="sounds/keys.wav" id="s_keys"></audio>
+    <audio src="sounds/keyw.wav" id="s_keyw"></audio>
+    <audio src="sounds/keyx.wav" id="s_keyx"></audio>
+    <audio src="sounds/keyz.wav" id="s_keyz"></audio>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
