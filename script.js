@@ -10,6 +10,10 @@ document.querySelector('#button').addEventListener('click',(event)=>{
         playComposition(songArray) 
     }
 });
+document.querySelector('.keysArea').addEventListener('click',(event)=>{
+    let key = event.target.id
+    playSong(key)
+})
 
 
 function playSong(key){
