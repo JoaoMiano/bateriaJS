@@ -28,6 +28,10 @@ Você pode acessar a Bateria Interativa diretamente pelo GitHub Pages:
 - Adicionar mais sons e teclas.
 - Implementar uma opção de gravação e reprodução de composições.
 
+## 🔗 Demais projetos do dsafio
+
+- Projeto 2 - [Relogio Analogico](https://github.com/JoaoMiano/RelogioAnalogico)
+
 ## 👨‍💻 Autor
 
 Desenvolvido por [João Pedro Miano](https://www.linkedin.com/in/joao-miano/).
