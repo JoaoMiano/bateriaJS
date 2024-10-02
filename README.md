@@ -31,6 +31,7 @@ Você pode acessar a Bateria Interativa diretamente pelo GitHub Pages:
 ## 🔗 Demais projetos do dsafio
 
 - Projeto 2 - [Relogio Analogico](https://github.com/JoaoMiano/RelogioAnalogico)
+- Projeto 3 - [Verificar clima](https://joaomiano.github.io/Clima/)
 
 ## 👨‍💻 Autor
 
